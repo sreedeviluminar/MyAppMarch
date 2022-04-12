@@ -44,11 +44,15 @@ public class LoginPage extends AppCompatActivity implements View.OnClickListener
         if(username.equals(uname) && password.equals(pword)) {
 
             Intent i = new Intent(getApplicationContext(), HomePage.class);
+            //passing username to Homepage through intent
+            i.putExtra("user",uname);
             startActivity(i);
 
         }else{
+
             Toast.makeText(getApplicationContext(),"Invalid Username or Password",Toast.LENGTH_LONG).show();
             clickcount--;
+
             if(clickcount == 0){
 
                 login.setEnabled(false); //disabling the Button
