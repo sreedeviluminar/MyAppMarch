@@ -5,22 +5,31 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.util.ArrayList;
 
 public class HomePage extends AppCompatActivity implements View.OnClickListener {
     RadioGroup gender;
     RadioButton r1,r2;
     CheckBox c1,c2,c3,c4;
 
+    Spinner sp;
+    ArrayAdapter arrayAdapter;
+    String states[] = {"-Select State-","Kerala" ,"TamilNadu","Karnataka","J&k","Goa","Andrapradesh","Orrissa","Bihar"};
+
+    // ArrayList districts = new ArrayList();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_page);
-
         //gender =(RadioGroup) findViewById(R.id.);
         r1 =(RadioButton)findViewById(R.id.female);
         r2 =(RadioButton)findViewById(R.id.male) ;
@@ -28,6 +37,32 @@ public class HomePage extends AppCompatActivity implements View.OnClickListener 
         c2 =(CheckBox)findViewById(R.id.checkBox2);
         c3 =(CheckBox)findViewById(R.id.checkBox3);
         c4 =(CheckBox)findViewById(R.id.checkBox4);
+
+        //    spinner using arraylist
+//        districts.add("Eranakulam");
+//        districts.add("Kottyam");
+//        districts.add("idukki");
+
+        sp = (Spinner)findViewById(R.id.spinner);
+        arrayAdapter= new ArrayAdapter(getApplicationContext(), android.R.layout.simple_list_item_1,states);
+        sp.setAdapter(arrayAdapter);
+
+        //click on spinner
+        sp.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                if(adapterView.getItemAtPosition(i).equals("-Select State-")){
+
+                } else{
+                Toast.makeText(getApplicationContext(),states[i],Toast.LENGTH_LONG).show();
+                }
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
 
 //        gender.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
 //            @Override
@@ -55,9 +90,7 @@ public class HomePage extends AppCompatActivity implements View.OnClickListener 
                 Toast.makeText(getApplicationContext(),"Gender is "+value1,Toast.LENGTH_LONG).show();
 
         }
-
     }
-
     public void show(View view) {
         boolean checkedcheckbox  =((CheckBox) view).isChecked();
 
