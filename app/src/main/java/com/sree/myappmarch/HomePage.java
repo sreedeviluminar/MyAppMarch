@@ -25,7 +25,8 @@ public class HomePage extends AppCompatActivity implements View.OnClickListener 
     ArrayAdapter arrayAdapter;
     String states[] = {"-Select State-","Kerala" ,"TamilNadu","Karnataka","J&k","Goa","Andrapradesh","Orrissa","Bihar"};
 
-    // ArrayList districts = new ArrayList();
+    // ArrayList districts = new ArrayList();//spinner using arraylist
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
