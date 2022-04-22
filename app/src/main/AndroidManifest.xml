@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyAppMarch">
         <activity
+            android:name=".CustomListView"
+            android:exported="false" />
+        <activity
             android:name=".Sample"
             android:exported="false" />
         <activity

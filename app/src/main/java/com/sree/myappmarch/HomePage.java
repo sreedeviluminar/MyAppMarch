@@ -52,9 +52,14 @@ public class HomePage extends AppCompatActivity implements View.OnClickListener 
         sp.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+
+                // if we use arraylist insteaad of array add this step
+
+                // String items =  adapterView.getItemAtPosition(i).toString(); then toast " items "
+
                 if(adapterView.getItemAtPosition(i).equals("-Select State-")){
 
-                } else{
+               } else{
                 Toast.makeText(getApplicationContext(),states[i],Toast.LENGTH_LONG).show();
                 }
             }
