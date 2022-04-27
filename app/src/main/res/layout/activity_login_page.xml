@@ -51,11 +51,12 @@
             android:hint="password"
             android:inputType="textPassword" />
 
-        <Button
-            android:id="@+id/login"
+<androidx.appcompat.widget.AppCompatButton            android:id="@+id/login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="140dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/circle"
             android:text="@string/buttoname" />
 
 

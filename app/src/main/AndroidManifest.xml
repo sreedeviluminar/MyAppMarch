@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyAppMarch">
         <activity
+            android:name=".ImplicitIntent"
+            android:exported="false" />
+        <activity
+            android:name=".samples.GridWithImage"
+            android:exported="true"></activity>
+        <activity
             android:name=".CustomListView"
             android:exported="false" />
         <activity
@@ -23,7 +29,8 @@
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/mytheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
