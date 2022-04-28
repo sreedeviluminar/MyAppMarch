@@ -1,7 +1,9 @@
 package com.sree.myappmarch;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -137,6 +139,40 @@ public class HomePage extends AppCompatActivity implements View.OnClickListener 
         }
 
         Toast.makeText(getApplicationContext(),langg,Toast.LENGTH_LONG).show();
+
+    }
+
+
+    @Override
+    public void onBackPressed() {
+
+        AlertDialog.Builder alert = new AlertDialog.Builder(this);
+        alert.setTitle("EXIT?")
+                .setMessage("Do you want to exit?")
+                .setCancelable(false);
+
+        alert .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                finish();
+            }
+        });
+
+        alert.setNegativeButton("No", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.cancel();
+            }
+        });
+        alert.setNeutralButton("Cancel", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.cancel();
+            }
+        });
+
+        AlertDialog obj = alert.create();
+        obj.show();
 
     }
 }

@@ -4,9 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
-import android.view.Window;
-import android.view.WindowManager;
+
+import com.sree.myappmarch.samples.GridWithImage;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                Intent intent = new Intent(getApplicationContext(), ImplicitIntent.class);
+                Intent intent = new Intent(getApplicationContext(), GridWithImage.class);
                 startActivity(intent);
                 finish();
 
