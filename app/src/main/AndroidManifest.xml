@@ -4,17 +4,31 @@
 
     <application
         android:allowBackup="true"
+        android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyAppMarch">
+        <activity
+            android:name=".TimePickerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlayVideo"
+            android:exported="false" />
+        <activity
+            android:name=".samples.HorizontalScroll"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityLifeCycle"
+            android:exported="true" />
         <activity
             android:name=".ImplicitIntent"
             android:exported="false" />
         <activity
             android:name=".samples.GridWithImage"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".CustomListView"
             android:exported="false" />
@@ -27,6 +41,7 @@
         <activity
             android:name=".LoginPage"
             android:exported="true" />
+        <activity android:name=".TimePickerWithEditText"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"

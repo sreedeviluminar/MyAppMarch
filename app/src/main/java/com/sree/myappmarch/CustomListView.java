@@ -1,13 +1,17 @@
 package com.sree.myappmarch;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 public class CustomListView extends AppCompatActivity {
 
@@ -33,6 +37,26 @@ public class CustomListView extends AppCompatActivity {
 
             }
         });
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.optionmenu,menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+
+        switch (item.getItemId()) {
+
+            case R.id.select:
+                Toast.makeText(getApplicationContext(), "selected", Toast.LENGTH_LONG).show();
+            case R.id.copy:
+                Toast.makeText(getApplicationContext(), "Copied", Toast.LENGTH_LONG).show();
+        }
+
+      return true;
     }
 
 }

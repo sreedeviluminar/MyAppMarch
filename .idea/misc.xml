@@ -5,16 +5,24 @@
       <map>
         <entry key="..\:/MyAppMarch/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
         <entry key="..\:/Projects/MyAppMarch/app/src/main/res/drawable/circle.xml" value="0.153" />
+        <entry key="..\:/Projects/MyAppMarch/app/src/main/res/drawable/ic_home.xml" value="0.122" />
         <entry key="..\:/Projects/MyAppMarch/app/src/main/res/drawable/ovalbutton.xml" value="0.153" />
         <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout-xlarge/activity_home_page.xml" value="0.1" />
+        <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout-xlarge/activity_time_picker_with_edit_text.xml" value="0.1" />
         <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/activity_custom_list_view.xml" value="0.14666666666666667" />
         <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/activity_grid_with_image.xml" value="0.4189453125" />
         <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/activity_home_page.xml" value="0.4466666666666667" />
+        <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/activity_horizontal_scroll.xml" value="0.1564245810055866" />
         <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/activity_implicit_intent.xml" value="0.1513157894736842" />
+        <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/activity_life_cycle.xml" value="0.15234375" />
         <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/activity_login_page.xml" value="0.3333333333333333" />
         <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/activity_play_video.xml" value="0.2001953125" />
         <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/activity_sample.xml" value="0.3333333333333333" />
+        <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/activity_time_picker.xml" value="0.16666666666666666" />
+        <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/activity_time_picker_with_edit_text.xml" value="0.31640625" />
         <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/secondlayaout.xml" value="0.22" />
+        <entry key="..\:/Projects/MyAppMarch/app/src/main/res/menu/optionmenu.xml" value="0.12" />
       </map>
     </option>
   </component>
