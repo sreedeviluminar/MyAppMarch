@@ -9,6 +9,8 @@
         <entry key="..\:/Projects/MyAppMarch/app/src/main/res/drawable/ovalbutton.xml" value="0.153" />
         <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout-xlarge/activity_home_page.xml" value="0.1" />
         <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout-xlarge/activity_time_picker_with_edit_text.xml" value="0.1" />
+        <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/activity_bluetooth.xml" value="0.31389578163771714" />
+        <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/activity_custom_card.xml" value="0.1904296875" />
         <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/activity_custom_list_view.xml" value="0.14666666666666667" />
         <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/activity_grid_with_image.xml" value="0.4189453125" />
         <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/activity_home_page.xml" value="0.4466666666666667" />
@@ -17,11 +19,19 @@
         <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/activity_life_cycle.xml" value="0.15234375" />
         <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/activity_login_page.xml" value="0.3333333333333333" />
         <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/activity_main_retrofit.xml" value="0.16666666666666666" />
         <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/activity_play_video.xml" value="0.2001953125" />
+        <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/activity_recycler_view_demo.xml" value="0.14666666666666667" />
         <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/activity_sample.xml" value="0.3333333333333333" />
+        <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/activity_tab_example.xml" value="0.1" />
         <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/activity_time_picker.xml" value="0.16666666666666666" />
         <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/activity_time_picker_with_edit_text.xml" value="0.31640625" />
+        <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/fragment_calls.xml" value="0.3548387096774194" />
+        <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/fragment_chat.xml" value="0.3548387096774194" />
+        <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/fragment_status.xml" value="0.16666666666666666" />
+        <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/row_item_retrofit.xml" value="0.3548387096774194" />
         <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/secondlayaout.xml" value="0.22" />
+        <entry key="..\:/Projects/MyAppMarch/app/src/main/res/layout/secondrecycler.xml" value="0.16666666666666666" />
         <entry key="..\:/Projects/MyAppMarch/app/src/main/res/menu/optionmenu.xml" value="0.12" />
       </map>
     </option>

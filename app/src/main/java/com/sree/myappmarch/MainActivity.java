@@ -8,9 +8,6 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
-import com.sree.myappmarch.samples.GridWithImage;
-import com.sree.myappmarch.samples.HorizontalScroll;
-
 
 public class MainActivity extends AppCompatActivity {
 
@@ -48,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                Intent intent = new Intent(getApplicationContext(), TimePickerWithEditText.class);
+                Intent intent = new Intent(getApplicationContext(), TabExample.class);
                 startActivity(intent);
                 finish();
 

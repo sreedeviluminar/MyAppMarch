@@ -18,4 +18,10 @@
     <style name="mytheme" parent="Theme.AppCompat.NoActionBar">
         <item name="android:windowFullscreen">true</item>
     </style>
+    <style name="Theme.MyAppMarch.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.MyAppMarch.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.MyAppMarch.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

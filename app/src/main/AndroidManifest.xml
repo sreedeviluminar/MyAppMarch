@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sree.myappmarch">
+    package="com.sree.myappmarch" >
+
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
 
     <application
         android:allowBackup="true"
@@ -10,7 +15,25 @@
         android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyAppMarch">
+        android:theme="@style/Theme.MyAppMarch" >
+        <activity
+            android:name=".navDreawer.MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.MyAppMarch.NoActionBar" />
+        <activity
+            android:name=".TabExample"
+            android:exported="false"
+            android:theme="@style/mytheme" />
+        <activity
+            android:name=".SnackBarEx"
+            android:exported="false" />
+        <activity
+            android:name=".RecyclerViewDemo"
+            android:exported="false" />
+        <activity
+            android:name=".BluetoothActivity"
+            android:exported="false" />
         <activity
             android:name=".TimePickerActivity"
             android:exported="false" />
@@ -41,11 +64,11 @@
         <activity
             android:name=".LoginPage"
             android:exported="true" />
-        <activity android:name=".TimePickerWithEditText"/>
+        <activity android:name=".TimePickerWithEditText" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/mytheme">
+            android:theme="@style/mytheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
